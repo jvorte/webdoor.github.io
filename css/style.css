@@ -390,7 +390,7 @@ a:focus {
     }
 }
 
-@media (max-width: 390.98px) {
+@media (max-width: 280.98px) {
     .hero .hero-text p {
         font-size: 16px;
     }
