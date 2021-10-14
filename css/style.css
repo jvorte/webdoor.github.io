@@ -394,6 +394,9 @@ a:focus {
     .hero .hero-text p {
         font-size: 16px;
     }
+    .back-to-top{
+      margin-left: 0px;  
+    }
   
     .hero .hero-text h1 {
         font-size: 30px;
