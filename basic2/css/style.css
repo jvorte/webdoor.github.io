@@ -146,13 +146,14 @@ a {
 .header_main{
 	width: 100%;
 	float: left;
-	background-image: url(../images/banner.png);
+	background-image: url(../images/top.jpg);
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-size:cover;
 	background-size: 100%;
     background-repeat: no-repeat;
+  
 }
 
 .main-menu ul>li a {
