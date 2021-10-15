@@ -359,6 +359,11 @@
   /*---------------------------------------
      PROJECT              
   -----------------------------------------*/
+  .img-carousel{
+
+  width: 400px ;
+  height: 550px;
+  }
 
   .project {
     background: var(--project-bg);
