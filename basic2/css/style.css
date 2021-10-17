@@ -141,19 +141,19 @@ a {
    padding: 90px 0;
 }
 
-.center-desk{ width: 100%; float: left; padding-bottom: 20px; }
+.center-desk{ width: 100%; float: left; padding-bottom: 20px;  }
 
 .header_main{
 	width: 100%;
 	float: left;
-	background-image: url(../images/garden.jpg);
+	background-image: url(../images/garden4.jpg);
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-size:cover;
 	background-size: 100%;
     background-repeat: no-repeat;
-  
+  background-position: center;
 }
 
 .main-menu ul>li a {
@@ -164,6 +164,7 @@ a {
     color: #ffffff;
     padding: 22px 20px;
     text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
 }
 
 nav.main-menu {
@@ -203,19 +204,22 @@ ul, li, ol {
 	font-size: 24pt;
 
 }
-
+.logo h1{ color: white;text-shadow: 1px 2px 2px black;}
 .logo{ width: 100%; float: left; }
-.web_text{ width: 100%; float: left; font-size: 48px; padding-top: 160px;}
+.web_text{ width: 100%; float: left; font-size: 78px; padding-top: 160px; color: white; text-shadow: 1px 2px 2px black;}
 .margin-top-20{ margin-top: 20px; }
 
 .donec_text{
 	font-size: 17px;
-    color: #110f0a;
+    color: rgb(245, 238, 238);
     margin-left: 0;
     padding-bottom: 20px;
     z-index: 9;
     position: relative;
+
+    
 }
+
 
 .bannen_inner{
 	width: 100%;
@@ -276,7 +280,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 .choose_section{
 	width: 100%;
 	float: left;
-	margin-top: 40px;
+	margin-top: 80px;
 	margin-bottom: 40px;
 }
 
@@ -519,14 +523,15 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 .contact_section_2{
 	width: 100%;
 	float: left;
-	background-image: url(../images/contact-bg.png);
 	height: auto;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-size: cover;
 	margin-top: 65px;
 	z-index: 5;
     position: relative;
+    border: 1px solid #2BA879;
+    background-color: #2BA879;
+    border-radius: 8px;
 }
 
 .section_right{
@@ -650,7 +655,7 @@ button.main_bt a:hover {
     width: 33.33%;
 }
 
-.footer-logo{ margin-top: 70px;}
+.footer-logo{ margin-top: 70px; }
 
 
 .subsrcibe_bt {
